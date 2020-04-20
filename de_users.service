@@ -1,0 +1,14 @@
+  
+[Unit]
+Description=runBot
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/node /home/mechanicalwhale/scripts/server.js
+Restart=always
+User=mechanicalwhale
+RestartSec=3s
+
+
+[Install]
+WantedBy=multi-user.target

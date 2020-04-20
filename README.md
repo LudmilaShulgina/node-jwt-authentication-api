@@ -1,1 +1,5 @@
-# node-jwt-authentication-api
+# Разграничение доступа с использованием JWT
+
+
+
+
